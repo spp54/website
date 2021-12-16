@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<ml lang="eng">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpoint" content ="width=device-width, initial-scale=1.0!">
+    <link rel="stylesheet" href="style.css">
+    <title>Steve Pearson </title>
+
+    
+</head> 
+
+<body  style = "background: rgb(136, 63, 63)"></body>
+<div class="mee">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="contact.html">Contact Me</a>
+</div> 
+
+<div>
+<h1 class = "My_name";>The Network Switch</h1>
+</div>
+
+<div>
+    <img src="/website/switchwork.jpg" alt="me picture" class = "center2">
+   </div>
+   <p id= "My_intro";>The Switch ( the box in the middle) is much smarter than the hub. For starter's switches have memory. Here's how they use this memory to perform their magic.When a switch is first powered up its memory is empty. In this initial state it is a bit like a hub in that it knows nothing about the devices connected to it. Lets say host B sends some data to Host A. When the switch receives this packet of data it looks at the intended destination address of the packet, compares it to its empty memory and says to itself 'I have no idea who this is for' So it does the logical thing, it sends the packet to everyone (hosts a,c and d) this is called 'flooding'. But, crucially it does 2 extra things. It stores the switch port number (fast ethernet 0/1) and the identity (host b) of the transmitting host in its memory. Now the switch knows that host B is connected to fa0/1. This process continues until the switches memory is fully populated with which host is connected to which port. So if host B sends another packet to A then this time the switch will look at its memory table and to itself 'Ah yes host A is connected to Ethernet port 2 and send the data packet out of port 2 only. This logic saves vast amounts of bandwidth and enables a whole host of other management tools  </p>
+
+   <div class="mee">
+    <a href="hub.html">Learn about Hubs here.</a>
+    <a href="switch.html">Learn about Switches here.</a>
+    <a href="router.html">Learn about Routers here.</a>
+</div>
