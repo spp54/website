@@ -1,0 +1,150 @@
+.My_name {
+  color:cornflowerblue;
+  padding:0px;
+  bottom:0px;
+  top:auto;
+  font-family: cursive;
+  font-size: 40px;
+  font-weight: 60;
+  display: block;
+  text-decoration: underline;
+  text-align:center;
+}
+
+.My_work {
+  display: block;
+  color:rgb(15, 97, 97);
+  font-size: 35px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.center {
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  width: 115px;
+}
+
+.center2 {
+  display: block;
+  margin-left:auto;
+  margin-right:auto;;
+  width: 450px;
+}
+
+#My_intro {
+  display: block;
+  color:rgb(100, 27, 27);
+  font-size: 25px;
+  text-align: center;
+}
+
+.hubtext{
+  color: blue;
+  font-size: 35;
+  text-align:right;
+}
+.aboutmeh2 {
+  color:rgb(11, 9, 160);
+    font-family:cursive;
+    font-size: 50px;
+    font-style:italic;
+    font-weight:100;
+    text-align:center;
+    text-decoration:transparent
+}
+
+.aboutmeh3 {
+  color:lightgoldenrodyellow;
+    font-family:cursive;
+    font-size: 25px;
+    font-style:italic;
+    font-weight:100;
+    text-align:center;
+    text-decoration:transparent
+}
+
+.hubpic {
+  position:absolute;top:720px; left:90px;
+  margin-left:auto;
+  margin-right:0pc;
+  height: 3pc;
+  width:10pc
+}
+
+.switchpic {
+  position:absolute;top:720px; left:550px;
+  margin-left:auto;
+  margin-right:0pc;
+  height: 3pc;
+  width:10pc
+}
+
+.routerpic{
+  position:absolute;top:720px; left:1050px;
+  margin-left:auto;
+  margin-right:auto;
+  height: 3pc;
+  width:10pc
+}
+
+.aboutmeh5 {
+  color:salmon;
+    font-family:cursive;
+    font-size: 25px;
+    font-style:italic;
+    font-weight:100;
+    text-align:center;
+    text-decoration:transparent
+}
+#nav{
+  font-size: 35px; 
+  background-color:cadetblue;
+  text-align:center;
+
+  
+}
+.mee {
+  display:flex;
+  background-color: rgb(93, 182, 93);
+  justify-content: space-between;
+  font-size: 25px;
+  
+  
+
+
+
+}
+
+.relative{
+  position: relative;
+  left: 30px;
+}
+
+/*for class we use    . */
+/* for id we use hashtag */
+/*h1{       
+    color:rgb(11, 9, 160);
+    font-family:cursive;
+    font-size: 50px;
+    font-style:italic;
+    font-weight:100;
+    text-align:center;
+    text-decoration:transparent
+}
+h2{color:rgb(12, 10, 10);
+  font-family:cursive;
+  font-size: 40px;
+  text-indent:30px;
+  font-style:italic;
+  font-weight:100;
+  text-align:center;
+}
+h3{color:rgb(12, 10, 10);
+  font-family:cursive;
+  font-size: 20px;
+  text-indent: 30px;
+  font-weight: 100;
+  text-align:center;
+}
